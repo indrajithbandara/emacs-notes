@@ -1,8 +1,12 @@
-* Mac OSX
-** Terminus font
-*** brew tap caskroom/fonts
-*** brew cask install font-terminus
-*** make sure emacs compiled
+* Terminus font
+#+BEGIN_SRC
+brew tap caskroom/fonts
+brew cask install font-terminus
+#+END_SRC
+
+Select terminus in emacs menu
 
 * Emacs compilation
-** brew install emacs --with-cocoa --with-rsvg --with-dbus
+#+BEGIN_SRC
+brew install emacs --with-cocoa --with-librsvg --with-dbus
+#+END_SRC
