@@ -10,3 +10,7 @@ Select terminus in emacs menu
 #+BEGIN_SRC
 brew install emacs --with-cocoa --with-librsvg --with-dbus
 #+END_SRC
+* Emacs.d
+#+BEGIN_SRC
+git clone https://github.com/watkinsr/emacs.d.git
+#+END_SRC
