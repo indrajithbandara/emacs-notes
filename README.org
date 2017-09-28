@@ -17,7 +17,7 @@ git clone https://github.com/watkinsr/emacs.d.git
 * GNUS (mail)
 #+BEGIN_SRC
 brew install gpg; touch ~/.authinfo.gpg; echo "machine ..." >> ~/authinfo.gpg
-#+ END_SRC
+#+END_SRC
 * General project setup
 #+BEGIN_SRC
 mkdir ~/projects; mkdir ~/projects/dev; mkdir ~/projects/dev/X; cd ~/projects/dev/X;
