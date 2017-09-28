@@ -8,7 +8,7 @@ Select terminus in emacs menu
 
 * Emacs compilation
 #+BEGIN_SRC
-brew install emacs --with-cocoa --with-librsvg --with-dbus
+brew install emacs --with-cocoa --with-librsvg --with-dbus --with-gnutls
 #+END_SRC
 * Emacs.d
 #+BEGIN_SRC
