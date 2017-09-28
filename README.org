@@ -21,3 +21,15 @@ git clone https://github.com/watkinsr/emacs.d.git
 #+BEGIN_SRC
 mkdir ~/projects; mkdir ~/projects/dev; mkdir ~/projects/dev/X; cd ~/projects/dev/X;
 #+END_SRC
+
+* Javascript setup (emacs)
+- js2-refactor (package-install js2-refactor)
+- js2-mode (comes with .emacs.d)
+- xref-js2
+* Javascript setup (mac osx)
+- brew install ag
+* Chromium remote debugging (MAC OSX)
+#+BEGIN_SRC
+open /Applications/Chromium.app --args --remote-debugging-port 9222
+M-x jss-connect / webkit / 127.0.0.1 / 9222
+#+END_SRC
