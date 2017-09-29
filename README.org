@@ -27,10 +27,16 @@ mkdir ~/projects; mkdir ~/projects/dev; mkdir ~/projects/dev/X; cd ~/projects/de
 - js2-refactor (package-install js2-refactor)
 - js2-mode (comes with .emacs.d)
 - xref-js2
+- (setq js2-basic-offset 2)
 * Javascript setup (mac osx)
 - brew install ag
 * Chromium remote debugging (MAC OSX)
 #+BEGIN_SRC
 open /Applications/Chromium.app --args --remote-debugging-port 9222
 M-x jss-connect / webkit / 127.0.0.1 / 9222
+#+END_SRC
+* org-jira
+- https://github.com/ahungry/org-jira
+#+BEGIN_SRC
+echo "machine your-site.atlassian.net login you@example.com password yourPassword port 80" >> ~/.authinfo.gpg
 #+END_SRC
